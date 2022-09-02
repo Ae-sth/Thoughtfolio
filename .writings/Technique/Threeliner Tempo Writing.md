@@ -1,0 +1,1 @@
+Detail my technique of forming paragraphs of a maximum of three phrases.
