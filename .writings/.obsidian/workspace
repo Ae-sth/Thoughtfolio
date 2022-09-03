@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Code/Path and URL, use them!.md",
+            "file": "Code/Coding as Typism.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Code/Path and URL, use them!.md",
+                "file": "Code/Coding as Typism.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Code/Path and URL, use them!.md",
+                "file": "Code/Coding as Typism.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Code/Path and URL, use them!.md"
+                "file": "Code/Coding as Typism.md"
               }
             }
           }
@@ -130,15 +130,15 @@
   },
   "active": "42c261fcda6d500a",
   "lastOpenFiles": [
+    "Code/Path and URL, use them!.md",
+    "Code/Code as Expression.md",
+    "Code/[Name] Coding Style Specification.md",
     "Code/The Core Elements of Coding.md",
     "Code/The Design of An Object-based Operating System.md",
     "Code/Coding as Typism.md",
-    "Code/[Name] Coding Style Specification.md",
     "Code/Code as a Propagation.md",
     "Ideology/Ideosis.md",
     "Design/Design, Beauty and Aesthetics.md",
-    "Book Drafts/Chessologics/Notes.md",
-    "Book Drafts/Conversiologics/Notes.md",
-    "Knowledge/The Design of Tensor Circuits.md"
+    "Book Drafts/Chessologics/Notes.md"
   ]
 }

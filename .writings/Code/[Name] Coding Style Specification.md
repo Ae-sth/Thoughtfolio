@@ -52,7 +52,7 @@ repository/
 - *Rule 2 (functional)*: **Variables** ought to be named in lowercase #snakecase while **functions** should be in capitalized #snakecase.
 	- *Note: the above applies to **static** members in the context of OOP.*
 - *Rule 3 (object)*: *Classes* are named in #pascalcase. **Properties** (attributes and methods) should be in #camelcase.
-- *Rule 4*: **Constants** are written in uppercase #snakecase.
+- *Rule 4*: **Constants** and **macros** are written in uppercase #snakecase.
 ---
 ## Coding Heuristics
 - Before anything, make a logger `src/misc/logger.xx`.
