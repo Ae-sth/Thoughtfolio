@@ -1,5 +1,6 @@
 {
   "interfaceFontFamily": "Yu Gothic UI",
   "textFontFamily": "Fira Code",
-  "monospaceFontFamily": "Fira Code"
+  "monospaceFontFamily": "Consolas,Fira Code",
+  "baseFontSize": 15
 }

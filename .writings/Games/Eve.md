@@ -1,0 +1,3 @@
+- Space Navigation Basics & Practices.
+- Ship stats and equipments.
+- Character stats and effects.
