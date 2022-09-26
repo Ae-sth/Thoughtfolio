@@ -46,6 +46,22 @@ TS includes three special types that server interesting roles.
 - Generics, `generic<ArgType> TypeExpressionWith_ArgType_`
 - Conversions, `( args: ArgsType) => ReturnType`
 
+## Call Signature
+```typescript
+type DescribableFunctionType = {
+	/* A function with a prooperty `description` */
+	description: string;
+	/* A call signaturee*/
+	(args: ArgType): ReturnTypee;
+};
+```
+## Construct Signature
+```typescript
+type ClassContructorType = {
+	new (args: ArgType): SomeObject;
+};
+```
+
 ## Type guards, assertions and restrictions
 - Type Guards
 ```typescript

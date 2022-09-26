@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Code/TS Praxis.md",
+            "file": "Knowledge/Absets and Complex Numbers.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Code/TS Praxis.md",
+                "file": "Knowledge/Absets and Complex Numbers.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Code/TS Praxis.md",
+                "file": "Knowledge/Absets and Complex Numbers.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Code/TS Praxis.md"
+                "file": "Knowledge/Absets and Complex Numbers.md"
               }
             }
           }
@@ -130,15 +130,15 @@
   },
   "active": "83822c28225dbdc8",
   "lastOpenFiles": [
-    "Code/TS Study Sheet.md",
-    "Code/TS Praxis.md",
-    "Code/Code as Types.md",
-    "Productivity/Code/ES Packages.md",
-    "Code/Path and URL, use them!.md",
+    "Code/PS Study Sheet.md",
     "Code/[Name] Coding Style Specification.md",
-    "Untitled.md",
-    "Games/Eve.md",
-    "Code/Code as a Propagation.md",
-    "Code/Code as Expression.md"
+    "Knowledge/Ontologies and Distinctions.md",
+    "Knowledge/Proto-graphics, Primitives to All Symbolic Expression.md",
+    "Knowledge/Geometric Linguistics.md",
+    "Code/Naming Style.md",
+    "Code/Type-Level TS.md",
+    "Code/TS Praxis.md",
+    "Code/TS Study Sheet.md",
+    "Code/Coding Thoughts.md"
   ]
 }

@@ -53,6 +53,7 @@ repository/
 	- *Note: the above applies to **static** members in the context of OOP.*
 - *Rule 3 (object)*: *Classes* are named in #pascalcase. **Properties** (attributes and methods) should be in #camelcase.
 - *Rule 4*: **Constants** and **macros** are written in uppercase #snakecase.
+- ==Exception 1==: Abbreviations should be ALL uppercase.
 ---
 ## Coding Heuristics
 - Before anything, make a logger `src/misc/logger.xx`.
