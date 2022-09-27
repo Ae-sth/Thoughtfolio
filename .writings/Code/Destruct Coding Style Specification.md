@@ -1,4 +1,4 @@
-# [Name] Coding Style Specification
+# Destruct Coding Style Specification (DSCC)
 ---
 ## Directory Structure
 
@@ -46,6 +46,7 @@ repository/
 - `yarn test` run all tests/.
 - `yarn check <path/to/test/file>` checks if a component broke by running its tests.
 - `yarn dev` starts in watch mode.
+- `yarn style` applies prettier on the code base.
 ---
 ## Naming Conventions
 - *Rule 1 (module)*: __Files__ and __directories__ ought to be named in lowercase with the (.) dot and (-) dash as the allowed special characters. #chaincase
@@ -56,7 +57,9 @@ repository/
 - ==Exception 1==: Abbreviations should be ALL uppercase.
 ---
 ## Coding Heuristics
-- Before anything, make a logger `src/misc/logger.xx`.
+- Before anything,
+	- setup prettier. (`https://raw.githubusercontent.com/Ae-sth/dotfiles/main/.prettierrc.json`)
+	- make a logger in `src/misc/logger.xx`. (`https://raw.githubusercontent.com/Ae-sth/miscellaneous/main/logger.ts`)
 - Design for errors. Design through types. Design Components.
 - Writes the test as soon as you write the component.
 ---
@@ -64,22 +67,11 @@ repository/
 
 Specify failure modes as part of coding the solution. Extend the `Error` class with the properties and necessary handling that is aware of its components.
 
-```typescript
-interface Component {
-	/* List all possible errors the component can run to.*/
-	this.#_errors = Array<new CustomError(this)>
-
-	/* Define handling for when the error is thrown. */
-	public handleError(): void
-	...
-}
-```
-
 ### Design through Types
 
 Define "as much as possible" custom types to represent the set of values that are part of the solution description. 
 
-(see [Coding as Typism])
+(see [[TS Study Sheet]])
 
 ### Design Components
 

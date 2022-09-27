@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Knowledge/Absets and Complex Numbers.md",
+            "file": "Code/Destruct Coding Style Specification.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Knowledge/Absets and Complex Numbers.md",
+                "file": "Code/Destruct Coding Style Specification.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Knowledge/Absets and Complex Numbers.md",
+                "file": "Code/Destruct Coding Style Specification.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Knowledge/Absets and Complex Numbers.md"
+                "file": "Code/Destruct Coding Style Specification.md"
               }
             }
           }
@@ -130,15 +130,15 @@
   },
   "active": "83822c28225dbdc8",
   "lastOpenFiles": [
+    "Knowledge/Absets and Complex Numbers.md",
     "Code/PS Study Sheet.md",
-    "Code/[Name] Coding Style Specification.md",
+    "Code/Destruct Coding Style Specification.md",
     "Knowledge/Ontologies and Distinctions.md",
     "Knowledge/Proto-graphics, Primitives to All Symbolic Expression.md",
     "Knowledge/Geometric Linguistics.md",
     "Code/Naming Style.md",
     "Code/Type-Level TS.md",
     "Code/TS Praxis.md",
-    "Code/TS Study Sheet.md",
-    "Code/Coding Thoughts.md"
+    "Code/TS Study Sheet.md"
   ]
 }
