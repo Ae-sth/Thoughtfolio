@@ -1,5 +1,0 @@
-```code
-GetThis -> pascal case
-
-
-```
