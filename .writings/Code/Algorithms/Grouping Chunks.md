@@ -1,0 +1,3 @@
+Suppose you have a list of things with different sizes which we shall model as a list of lists. 
+Imagine we have a port with a specific allowed size to pass. Three situations presents themselves to us, (1) the object fits perfectly, (2) is smaller or (3) bigger.
+Write an algorithm that optimizes the passing of all chunks depending on which chunk we choose to pass first. And in the case where we don't choose just computes the best piece to start with.

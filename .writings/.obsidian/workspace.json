@@ -1,0 +1,195 @@
+{
+  "main": {
+    "id": "953f025354bdec3a",
+    "type": "split",
+    "children": [
+      {
+        "id": "f78c142de99abac0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fec1ff8cb3293fe8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Academia/Invariance & Symmetry/Group Theory/Group-theoretic Method for the Study of Natural Phenomena.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "f624946da250a8d7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Code/Algorithms/Grouping Chunks.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "f501b19950641786",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Academia/Teaching/1st Year SM/First-Test Proposal.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "c40a6d45c5dee733",
+    "type": "split",
+    "children": [
+      {
+        "id": "dd023a6c2c153e05",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c5e829c9fe967357",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "4bae623cb934a2f9",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "997f6ee62e48f864",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "503a7a19f78ffba1",
+    "type": "split",
+    "children": [
+      {
+        "id": "34f48bd78bdc97d6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "88bf87b148bc7328",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Academia/Teaching/1st Year SM/First-Test Proposal.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "2b26e72b10a11a62",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Academia/Teaching/1st Year SM/First-Test Proposal.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "f4a8e8b8ae7d7587",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "55065bcbedf41605",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Academia/Teaching/1st Year SM/First-Test Proposal.md"
+              }
+            }
+          }
+        ],
+        "currentTab": 3
+      },
+      {
+        "id": "9adac103009b5a67",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d80e4d804a37b446",
+            "type": "leaf",
+            "state": {
+              "type": "ob_comments",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "ribbon": {
+    "mostRecentAction": ""
+  },
+  "active": "f501b19950641786",
+  "lastOpenFiles": [
+    "Academia/Teaching/1st Year SM/Solution Exercise 8 and 9.md",
+    "Academia/Teaching/1st Year SM/First-Test Proposal.md",
+    "Academia/Teaching/1st Year SM/Math Lectures.md",
+    "Academia/Teaching/1st Year SM/Math TD.md",
+    "media/symbols.pdf",
+    "Technique/LaTeX/LaTeX Cheat Sheet.md",
+    "Code/Algorithms/Grouping Chunks.md",
+    "Academia/Invariance & Symmetry/Group Theory/Group-theoretic Method for the Study of Natural Phenomena.md",
+    "Academia/Invariance & Symmetry/Group Theory/references/Applications of the Theory of Groups in Mechanics and Physics.md",
+    "Academia/Invariance & Symmetry/Group Theory/A Primer to Groups.md"
+  ]
+}

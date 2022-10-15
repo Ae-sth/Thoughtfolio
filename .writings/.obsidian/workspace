@@ -4,24 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "858619e680da053f",
+        "id": "fec1ff8cb3293fe8",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
             "file": "Academia/Invariance & Symmetry/Group Theory/Group-theoretic Method for the Study of Natural Phenomena.md",
-            "mode": "source",
-            "source": false
-          }
-        }
-      },
-      {
-        "id": "83bfada2d50db0d9",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Technique/LaTeX/LaTeX Cheat Sheet.md",
             "mode": "source",
             "source": false
           }
@@ -155,17 +143,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "858619e680da053f",
+  "active": "fec1ff8cb3293fe8",
   "lastOpenFiles": [
-    "Symmetries and Algebraic Equations.md",
-    "Technique/LaTeX/LaTeX Cheat Sheet.md",
+    "Academia/Invariance & Symmetry/Group Theory/references/Applications of the Theory of Groups in Mechanics and Physics.md",
     "Academia/Invariance & Symmetry/Group Theory/Group-theoretic Method for the Study of Natural Phenomena.md",
     "Academia/Invariance & Symmetry/Group Theory/A Primer to Groups.md",
-    "Academia/Invariance & Symmetry/Group Theory/references/Applications of the Theory of Groups in Mechanics and Physics.md",
-    "Code/Propagation of Order and Sorting Algorithms.md",
-    "Code/The Core Elements of Coding.md",
-    "Code/Powershell/PS Study Sheet.md",
-    "Book Drafts/Conversiologics/todolist.md",
-    "Book Drafts/Chessologics/todolist.md"
+    "Templates/Presentation.md",
+    "media/(Fundamental Theories of Physics 140) Petre P. Teodorescu, Nicolae-Alexandru P. Nicorovici (auth.) - Applications of the Theory of Groups in Mechanics and Physics-Springer Netherlands (2004).pdf",
+    "Book Drafts/Conversiologics/Thoughts.md",
+    "Academia/Teaching/1st Year SM/Math Lectures.md",
+    "Academia/Teaching/1st Year SM/Math TD.md",
+    "Academia/Teaching/1st Year SM/Corréction Type Exercice 8 et 9.md",
+    "Technique/LaTeX/LaTeX Cheat Sheet.md"
   ]
 }

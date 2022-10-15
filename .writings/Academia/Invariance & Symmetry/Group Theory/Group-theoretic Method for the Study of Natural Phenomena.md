@@ -44,7 +44,15 @@ A #groupoid $(G, \circ)$ is a non-empty set $G$ endowed with only one internal c
 In any group, $(G,\circ)$ the relations, $$(x \circ y)^{-1}=y^{-1} \circ x^{-1}$$ $$(x^{-1})^{-1}=x$$
 are satisfied, $\forall x,y \in G$. Also, any element of $G$ is regular.
 
-(page. 9)
+---
+
+A #transformation $T$ of a set $M$ is a one-to-one mapping of the elements of $M$ on themselves. That is, $Tx=y$ is uniquely solvable for $x$, $\forall y$. One might also define the reverse transformation, $T^{-1}$ such that, $$Tx=y \iff x=T^{-1}y$$
+Transformations form a group.
+- Trivial transformation, existence of neutral element.
+- Reverse transformation, existence of the symmetric.
+- The combination of two transformations is another transformation, closure and associativity.
+
+
 
 ---
 # Praxis
