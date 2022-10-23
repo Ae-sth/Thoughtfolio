@@ -1,0 +1,5 @@
+By watching https://www.youtube.com/watch?v=KufsL2VgELo, I realized that notions like subgroups, cosets and the like aren't just theoretical artifacts. They serve an interesting purpose. One which leads to viewing a group a symmetry machinery where the invariance that the group is about is made out of smaller invariances like components of a system.
+
+Subgroups give more structure to groups and tell an interesting relationship between symmetries. Groups with no subgroups are simple. They are not producible by any group combinations, they are like primitives from which more sophisticated groups are made.
+
+Another interesting aspect I was made sensitive to is Cayley's or Lagrange's theorem, notably that any group defined on any set is a subgroup of the permutation group of that set. That is ultimately every symmetry can be found in permutations and that's a powerful statement to explore its consequences.

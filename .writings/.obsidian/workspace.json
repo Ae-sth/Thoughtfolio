@@ -4,47 +4,71 @@
     "type": "split",
     "children": [
       {
-        "id": "f78c142de99abac0",
+        "id": "123bbf9eedda74fe",
         "type": "tabs",
         "children": [
           {
-            "id": "fec1ff8cb3293fe8",
+            "id": "05a0d0514ac6d557",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Academia/Invariance & Symmetry/Group Theory/Group-theoretic Method for the Study of Natural Phenomena.md",
+                "file": "Academia/Minimum and Maximum Computation through Self-similarity.md",
                 "mode": "source",
-                "source": true
+                "source": false
               }
             }
           },
           {
-            "id": "f624946da250a8d7",
+            "id": "467e85259bf3b437",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Code/Algorithms/Grouping Chunks.md",
+                "file": "Code/Exploit/A primer to exploitation.md",
                 "mode": "source",
-                "source": true
+                "source": false
               }
             }
           },
           {
-            "id": "f501b19950641786",
+            "id": "65179270bf445fa6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Academia/Teaching/1st Year SM/First-Test Proposal.md",
-                "mode": "preview",
-                "source": true
+                "file": "Academia/Teaching/1st Year SM/First-Test Proposal - TC SM Math 1.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0ac2fba30a9d54c4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Academia/Invariance & Symmetry/Group Theory/Side-Thoughts.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4ee4685805d337d0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Academia/Teaching/1st Year SM/Draft for test-proposal.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -110,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Academia/Teaching/1st Year SM/First-Test Proposal.md",
+                "file": "Academia/Invariance & Symmetry/Group Theory/Side-Thoughts.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Academia/Teaching/1st Year SM/First-Test Proposal.md",
+                "file": "Academia/Invariance & Symmetry/Group Theory/Side-Thoughts.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Academia/Teaching/1st Year SM/First-Test Proposal.md"
+                "file": "Academia/Invariance & Symmetry/Group Theory/Side-Thoughts.md"
               }
             }
           }
@@ -170,6 +194,20 @@
             }
           }
         ]
+      },
+      {
+        "id": "a6d53fbcf161a40e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "32b87f24d7f3849b",
+            "type": "leaf",
+            "state": {
+              "type": "ob_comments",
+              "state": {}
+            }
+          }
+        ]
       }
     ],
     "direction": "horizontal",
@@ -179,17 +217,17 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "f501b19950641786",
+  "active": "0ac2fba30a9d54c4",
   "lastOpenFiles": [
-    "Academia/Teaching/1st Year SM/Solution Exercise 8 and 9.md",
-    "Academia/Teaching/1st Year SM/First-Test Proposal.md",
-    "Academia/Teaching/1st Year SM/Math Lectures.md",
-    "Academia/Teaching/1st Year SM/Math TD.md",
-    "media/symbols.pdf",
+    "Academia/Teaching/1st Year SM/First-Test Proposal - TC SM Math 1.md",
+    "Code/Exploit/A primer to exploitation.md",
+    "Code/Exploit/Buffer Overflow.md",
+    "Academia/Teaching/1st Year SM/Draft for test-proposal.md",
+    "Code/On the Meaningless Divide Between Coder and Hacker, Cyber Punk.md",
+    "Academia/Minimum and Maximum Computation through Self-similarity.md",
     "Technique/LaTeX/LaTeX Cheat Sheet.md",
-    "Code/Algorithms/Grouping Chunks.md",
-    "Academia/Invariance & Symmetry/Group Theory/Group-theoretic Method for the Study of Natural Phenomena.md",
-    "Academia/Invariance & Symmetry/Group Theory/references/Applications of the Theory of Groups in Mechanics and Physics.md",
-    "Academia/Invariance & Symmetry/Group Theory/A Primer to Groups.md"
+    "Code/Assembly/Morphing Code.md",
+    "Academia/Invariance & Symmetry/Group Theory/A Primer to Groups.md",
+    "Academia/Invariance & Symmetry/Group Theory/Representation Theory.md"
   ]
 }
