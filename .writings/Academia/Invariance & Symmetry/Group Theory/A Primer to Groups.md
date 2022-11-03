@@ -72,18 +72,6 @@ The automorphism, $f_{x}: G \rightarrow G$, defines the conjugate elements. The 
 - If $g$ is conjugate to $h$, then $g^{-1}$ is conjugate to $h^{-1}$.
 
 ---
-Let $G$ be a group. A subset $H \subset G$, $H =\emptyset$, is called a **subgroup** of $G$ if the internal composition law of $G$ restricted to $H$ is an internal composition law that makes $H$ into a group.
-
-*If a group has subgroups it is as if a symmetry is made of smaller symmetries.*
-
-**Theorem**. A non-empty subset $H$, is a subgroup of $G$ iff, $\forall x, y \in H, xy^{-1} \in H$.
-
-The subsets $G$ and ${e}$ are called improper subgroups and any other subgroup is a proper one.
-
-Let $f: F \rightarrow G$ be a homomorphism of groups then,
-1. $f(F)$ is a subgroup of $G$.
-2. $H < G \Rightarrow f^{-1}(G)<F$.
-	1. In particular, $Ker f=f^{-1}(e)$, called the kernel of, $f$.
 
 ---
 Let $A$ and $B$ be two sets, not necessarily distinct. A subset $R$ in the *Cartesian* product $A \times B$ is called **binary relation** between the two sets.$$(a,b)\in R \subset A  \times B$$

@@ -1,0 +1,4 @@
+- Role of each.
+- Exercise of each.
+- Relationship and best usage.
+- Coordination and structure.

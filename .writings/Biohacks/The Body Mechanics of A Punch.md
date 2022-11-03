@@ -1,0 +1,3 @@
+- Power transfer chain. Joints.
+- Optimum position.
+- Important muscles.

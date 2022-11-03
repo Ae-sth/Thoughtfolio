@@ -71,7 +71,7 @@ This amount to measure the right amount of complexity
 
 effective complexity as the shortest description of the perceived regularities in a system (Gell-Mann and Lloyd 1996)
 
-`EffectiveComplexity = Meaning : Information`
+$$EffectiveComplexity = \frac{Meaning}{Information}$$
 
 How can we interpret this equation?
 

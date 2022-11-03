@@ -1,0 +1,1 @@
+`// @ts-expect-error` type checks only if the next line doesn't.
