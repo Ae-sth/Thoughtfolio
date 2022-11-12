@@ -8,14 +8,43 @@
         "type": "tabs",
         "children": [
           {
-            "id": "e5dc94f5394510b7",
+            "id": "5641790565150673",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Code/Typescript/Objects & Records.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "cef574bc523a7daa",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Code/Typescript/Arrays & Tuples.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "cac466879271e748",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Book Drafts/Chessologics/Tactical Overlay Methods.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -81,6 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Code/Typescript/Arrays & Tuples.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Code/Typescript/Arrays & Tuples.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +149,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Code/Typescript/Arrays & Tuples.md"
+              }
             }
           }
         ],
@@ -157,17 +190,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "e5dc94f5394510b7",
+  "active": "cef574bc523a7daa",
   "lastOpenFiles": [
+    "Code/Typescript/Objects & Records.md",
+    "Book Drafts/Chessologics/Tactical Overlay Methods.md",
+    "Code/Typescript/Philosophy of Typing.md",
+    "Code/Typescript/Types are Data.md",
+    "Academia/Pedagogy/Tools/Manim/Basics of the Manim Package.md",
     "Code/Typescript/Type-Level TS.md",
     "Code/Typescript/Types and Values.md",
     "Code/Typescript/TS Directive Tags.md",
-    "Code/Typescript/Philosophy of Typing.md",
     "Code/Exploit/Shellcode.md",
-    "Academia/Invariance & Symmetry/Group Theory/Representation Theory.md",
-    "Design/Design, Beauty and Aesthetics.md",
-    "Academia/Invariance & Symmetry/Group Theory/Sets and Composition Laws.md",
-    "Academia/Invariance & Symmetry/Group Theory/Subgroup and Cosets.md",
-    "Academia/Invariance & Symmetry/Group Theory/Side-Thoughts.md"
+    "Academia/Invariance & Symmetry/Group Theory/Representation Theory.md"
   ]
 }
