@@ -4,47 +4,34 @@
     "type": "split",
     "children": [
       {
-        "id": "b5a878d927c14bc3",
+        "id": "2eecc81f1d53b46a",
         "type": "tabs",
         "children": [
           {
-            "id": "5641790565150673",
+            "id": "c8992efa54220d80",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Code/Typescript/Objects & Records.md",
+                "file": "Code/Powershell/Programmatic Aspects.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "cef574bc523a7daa",
+            "id": "79eff51cf6b80dc2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Code/Typescript/Arrays & Tuples.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "cac466879271e748",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Book Drafts/Chessologics/Tactical Overlay Methods.md",
+                "file": "Code/Typescript/challenges/Solved.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -110,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Code/Typescript/Arrays & Tuples.md",
+                "file": "Code/Powershell/Programmatic Aspects.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Code/Typescript/Arrays & Tuples.md",
+                "file": "Code/Powershell/Programmatic Aspects.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Code/Typescript/Arrays & Tuples.md"
+                "file": "Code/Powershell/Programmatic Aspects.md"
               }
             }
           }
@@ -184,23 +171,37 @@
             }
           }
         ]
+      },
+      {
+        "id": "d06b455612304ff7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a8c6df78913e9a73",
+            "type": "leaf",
+            "state": {
+              "type": "ob_comments",
+              "state": {}
+            }
+          }
+        ]
       }
     ],
     "direction": "horizontal",
     "width": 300,
     "collapsed": true
   },
-  "active": "cef574bc523a7daa",
+  "active": "c8992efa54220d80",
   "lastOpenFiles": [
+    "Code/Typescript/challenges/Solved.md",
     "Code/Typescript/Objects & Records.md",
-    "Book Drafts/Chessologics/Tactical Overlay Methods.md",
-    "Code/Typescript/Philosophy of Typing.md",
-    "Code/Typescript/Types are Data.md",
-    "Academia/Pedagogy/Tools/Manim/Basics of the Manim Package.md",
-    "Code/Typescript/Type-Level TS.md",
-    "Code/Typescript/Types and Values.md",
-    "Code/Typescript/TS Directive Tags.md",
-    "Code/Exploit/Shellcode.md",
-    "Academia/Invariance & Symmetry/Group Theory/Representation Theory.md"
+    "Code/Powershell/Programmatic Aspects.md",
+    "Code/Errors/Basics of Error-Handling in JS.md",
+    "Academia/Pedagogy/1st Year SM/Second-Test Proposal - TC SM Math.md",
+    "Code/Decorators/Basics of Decorators.md",
+    "Code/Typescript/challenges/Unsolved.md",
+    "dashboard.md",
+    "Code/Errors/Error Handling with TS.md",
+    "Code/Typescript/Conditional Types.md"
   ]
 }
