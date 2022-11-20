@@ -152,6 +152,200 @@ $myGreetings = @(
 # All equivalent.
 ```
 
+>A single item can be added to the end of an array using the assignment by addition operator.
+
+```powershell
+$myArray = @() 
+$myArray += "New value"
+```
+
+>In the background, a new array is created with one extra element. The content of the existing array is copied, then the value for the new element is assigned. Once complete, the original array, stored in memory, is removed. The larger the array, the less efficient this operation becomes.
+
+>If an array is necessary, and the size of the array might change, a List (`System.Collections.Generic.List`) is often a better choice.
+
+>Using `@()` around a set of elements or expressions is often the cleanest way to merge values into a single array.
+
+
+```powershell
+$firstArray = 1, 2, 3 
+$mergedArray = @( 
+	Get-Process 
+	'someString' 
+	$firstArray 
+)
+```
+
+>Individual elements from an array may be selected by index.
+
+>In a similar manner, array elements can be accessed counting backward from the end. The last element is available using -1 as the index, and the penultimate element using -2 as the index.
+
+>Ranges of elements may be selected either going forward (starting from 0) or going backward (starting with -1).
+
+
+```powershell
+$myArray[2..4] 
+$myArray[-1..-5]
+```
+
+Since arrays are immutable removing a value doesn't make sense. To achieve a similar effect a new array must be created where the elements of interest are absent and this can be done by iterating through all elements and filtering out the ones we don't want (either index-based or value-based filter).
+
+
+```powershell
+$newArray = for ($i = 0; $i -lt $oldArray.Count; $i++) { 
+	if ($i -ne 49) { 
+		$oldArray[$i] 
+	} 
+}
+```
+
+>Finally, an array may be completely emptied by calling the `Clear` method.
+
+>*It is possible to create two (or more) variables when assigning an array*.
+
+>If the array is longer than the number of variables, ==all remaining elements are assigned to the last variable==.
+
+### Hashtables
+
+>A **Hashtable** is an *associative array* or an indexed array. Values in the Hashtable are added with a unique key. Each key has a value associated with it; this is also known as a key-value pair. <u>Keys cannot be duplicated within the Hashtable</u>.
+
+>*Hashtables are important in PowerShell*. They are used to create custom objects, to <u>pass parameters into commands</u>, to create custom properties using Select-Object, and as the type for values assigned to parameter values of many different commands, among other things.
+
+>An empty Hashtable is created in the same manner as the following.
+
+```powershell
+$hashtable = @{}
+```
+
+```powershell
+$hashtable = @{Key1 = "Value1"; Key2 = "Value2"}
+$hashtable = @{ 
+	Key1 = "Value1" 
+	Key2 = "Value2" 
+}
+```
+
+```powershell
+$hashtable = @{} 
+$hashtable.Add("Key1", "Value1")
+```
+
+>The `Contains` method returns true or false, depending on whether a key is present in $hashtable.
+
+
+```powershell
+$hashtable = @{ Existing = "Old" } 
+$hashtable["New"] = "New" # Add this 
+$hashtable["Existing"] = "Updated" # Update this
+
+# OR 
+
+$hashtable = @{ Existing = "Old" } 
+$hashtable.New = "New" # Add this 
+$hashtable.Existing = "Updated" # Update this
+```
+
+>==Keys cannot be added nor can values be changed while looping through the keys in a Hashtable using the keys property==. Doing so changes the underlying structure of the Hashtable, invalidating the iterator used by the loop operation.
+
+
+```powershell
+# Workaround
+$hashtable = @{ Key1 = 'Value1' Key2 = 'Value2' } 
+[Object[]]$keys = $hashtable.Keys 
+foreach ($key in $keys) { $hashtable[$key] = "NewValue" }
+```
+
+>Keys can be returned using the Keys property of the Hashtable, which returns `KeyCollection`. 
+
+```powershell
+$hashtable.Keys 
+```
+
+>Values can be returned using the Values property, which returns `ValueCollection`. The key is discarded when using the Values property.
+
+```powershell
+$hashtable.Values
+```
+
+>An element can be removed using the `Remove` method.
+
+### Lists
+
+```powershell
+$list = [System.Collections.Generic.List[String]]::new() 
+
+# Add elements at the end of list
+$list.Add("David")
+$list.AddRange(@("Tim", "Robert"))
+
+# Selecting elements
+$index = $list.FindIndex( { $args[0] -eq 'Richard' } )
+$list.IndexOf('Richard')
+$list.BinarySearch('Richard')
+
+# Removing eleemnts
+$list.RemoveAt(1) # By Richard by index 
+$list.Remove("Richard") # By Richard by value
+$list.RemoveAll( { $args[0] -eq "David" } )
+```
+
+### Dictionaries
+
+```powershell
+$dictionary = [System.Collections.Generic.Dictionary[String,IPAddress]]::new()
+
+$dictionary.Add("Computer1", "192.168.10.222")
+$dictionary.Computer3 = "192.168.10.134"
+
+if (-not $dictionary.ContainsKey("Computer2")) { 
+	$dictionary.Add("Computer2", "192.168.10.13") 
+}
+
+$dictionary["Computer1"] # Key reference 
+$dictionary.Computer1 # Dot-notation
+
+$dictionary.Remove("Computer1")
+```
+
+### Queues
+
+>A queue is a *first-in, first-out* ==array==. Elements are added to the end of the queue and taken from the beginning.
+
+> PowerShell displays the contents of a queue in the same way as it would the contents of an array. <u>It is not possible to access elements of the queue by the index</u>.
+
+```powershell
+$queue = [System.Collections.Generic.Queue[String]]::new()
+
+$queue.Enqueue("Tom") 
+$queue.Enqueue("Richard") 
+$queue.Enqueue("Harry")
+
+$queue.Dequeue() # This returns Tom.
+
+$queue.ToArray()
+$queue.Peek()
+```
+
+>The queue has a `Peek` method that allows the retrieval of the next element in the queue without it being removed.
+
+### Stacks
+
+>A stack is a collection of objects in which objects are accessed in *Last-In, First-Out* (LIFO) order. Elements are added and removed from the top of the stack.
+
+
+```powershell
+$stack = [System.Collections.Generic.Stack[String]]::new()
+
+$stack.Push("Up the road") 
+$stack.Push("Over the gate") 
+$stack.Push("Under the bridge")
+
+$stack.Pop() # This returns Under the bridge
+
+$stack.ToArray()
+$stack.Peek()
+```
+
+
 
 
 ## Objects
