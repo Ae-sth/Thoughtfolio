@@ -10,3 +10,13 @@
 - [ ]  Work on [[Absets and Complex Numbers]]
 	- [ ] Formalize the Abset theory.
 	- [ ] Research the connection between absets and complex numbers.
+
+---
+---
+
+Don't forget to pass to admin to get some exam paper
+Don't forget to notify both groups of the test the other week.
+Finish " The programmatic aspect " for PS
+Advance the CFD presentation
+Work on the International Conference Presentation
+Work on some Li -> Pairs

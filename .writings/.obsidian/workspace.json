@@ -4,28 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "2eecc81f1d53b46a",
+        "id": "f48930911ea18ed2",
         "type": "tabs",
         "children": [
           {
-            "id": "c8992efa54220d80",
+            "id": "12c343ef8f04668d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Code/Powershell/Programmatic Aspects.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "79eff51cf6b80dc2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Code/Typescript/challenges/Solved.md",
                 "mode": "source",
                 "source": false
               }
@@ -191,16 +179,16 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "c8992efa54220d80",
+  "active": "12c343ef8f04668d",
   "lastOpenFiles": [
+    "dashboard.md",
+    "Code/Powershell/Programmatic Aspects.md",
     "Code/Typescript/challenges/Solved.md",
     "Code/Typescript/Objects & Records.md",
-    "Code/Powershell/Programmatic Aspects.md",
     "Code/Errors/Basics of Error-Handling in JS.md",
     "Academia/Pedagogy/1st Year SM/Second-Test Proposal - TC SM Math.md",
     "Code/Decorators/Basics of Decorators.md",
     "Code/Typescript/challenges/Unsolved.md",
-    "dashboard.md",
     "Code/Errors/Error Handling with TS.md",
     "Code/Typescript/Conditional Types.md"
   ]
