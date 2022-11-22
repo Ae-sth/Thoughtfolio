@@ -8,18 +8,43 @@
         "type": "tabs",
         "children": [
           {
-            "id": "12c343ef8f04668d",
+            "id": "ef1a1e95afa01c5c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Code/Powershell/Programmatic Aspects.md",
+                "file": "Code/Powershell/File Handling.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "45bf4dfb7b545368",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Code/Powershell/Strings and Regex.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "588b177a4972f842",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Code/Powershell/Processes and Scheduling.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -85,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Code/Powershell/Programmatic Aspects.md",
+                "file": "Code/Powershell/Processes and Scheduling.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Code/Powershell/Programmatic Aspects.md",
+                "file": "Code/Powershell/Processes and Scheduling.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Code/Powershell/Programmatic Aspects.md"
+                "file": "Code/Powershell/Processes and Scheduling.md"
               }
             }
           }
@@ -179,17 +204,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "12c343ef8f04668d",
+  "active": "588b177a4972f842",
   "lastOpenFiles": [
-    "dashboard.md",
+    "Code/Powershell/File Handling.md",
+    "Code/Powershell/Classes.md",
     "Code/Powershell/Programmatic Aspects.md",
-    "Code/Typescript/challenges/Solved.md",
-    "Code/Typescript/Objects & Records.md",
-    "Code/Errors/Basics of Error-Handling in JS.md",
+    "Code/Powershell/Networking.md",
+    "Code/Powershell/Strings and Regex.md",
+    "Code/Powershell/Processes and Scheduling.md",
+    "Code/Powershell/PS Study Sheet (Deprecated).md",
     "Academia/Pedagogy/1st Year SM/Second-Test Proposal - TC SM Math.md",
-    "Code/Decorators/Basics of Decorators.md",
-    "Code/Typescript/challenges/Unsolved.md",
-    "Code/Errors/Error Handling with TS.md",
-    "Code/Typescript/Conditional Types.md"
+    "dashboard.md",
+    "Code/Typescript/challenges/Solved.md"
   ]
 }

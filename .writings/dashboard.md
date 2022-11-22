@@ -1,5 +1,5 @@
 # Havetolist
-- [ ] Complete my study of #powershell, [[PS Study Sheet]].
+- [ ] Complete my study of #powershell, [[PS Study Sheet (Deprecated)]].
 
 ---
 # Todolist

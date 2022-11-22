@@ -345,14 +345,291 @@ $stack.ToArray()
 $stack.Peek()
 ```
 
-
-
-
-## Objects
-
-
 # Conditionals
+
+> An `if` statement is used to execute an action when a condition is met.
+
+
+```powershell
+if (<condition>) { 
+	<statements>
+}
+```
+
+>The `elseif` statement allows several conditions to be tested in order.
+
+
+```powershell
+if (<first-condition>) { 
+	<first-statements>
+} elseif (<second-condition>) { 
+	<second-statements>
+} elseif (<third-condition>) { 
+	<third-statements>
+}
+```
+
+
+>The `else` statement is optional and runs if all previous conditions evaluate to false.
+
+```powershell
+if (<condition>) { 
+	<statements>
+} else { 
+	<alternative-statements>
+}
+```
+
+>A `switch` statement executes statements where a case evaluates to `true`. The case can be a number, a string, or any other value.
+
+
+```powershell
+switch [-regex|-wildcard|-exact][-casesensitive] (<value>) { 
+	<case> { <statements> } 
+	<case> { <statements> } 
+	default { <statements> } 
+}
+```
+
+>The `switch` statement can be used on both scalar (single) values and arrays of values. If the value is an array, then each case will be tested against each element of the array.
+
+```powershell
+$arrayOfValues = 1..3 
+switch ($arrayOfValues) { 
+	1 { 'One' } 
+	2 { 'Two' } 
+	3 { 'Three' } 
+}
+```
+
+>The wildcard parameter allows the use of the characters ? (any single character) and * (any string of characters) in a condition.
+
+```powershell
+switch -Wildcard ('cat') { 
+	'c*' { Write-Host 'The word begins with c' } 
+	'???' { Write-Host 'The word is 3 characters long' } 
+	'*t' { Write-Host 'The word ends with t' } 
+}
+```
+
+>The Regex parameter allows for the use of regular expressions to perform comparisons.
+
+```powershell
+switch -Regex ('cat') { 
+	'^c' { Write-Host 'The word begins with c' } 
+	'^[a-z]{3}$' { Write-Host 'The word is 3 characters long' } 
+	't$' { Write-Host 'The word ends with t' } 
+}
+```
+
+>`switch` allows a script block to be used in place of the simpler direct comparison cases used in the preceding sections. The script block is executed, and the result determines if the case is matched.
+
+```powershell
+switch (Get-Date) { 
+	{ $_ -is [DateTime] } { Write-Host 'This is a DateTime type' } 
+	{ $_.Year -ge 2020 } { Write-Host 'It is 2020 or later' } 
+}
+```
+
+>The `break` and `continue` keywords may be used within the switch statement to control when it should stop testing a value. break *ends the switch statement*; continue, when the value is an array, *continues to the next element in the array*.
 
 # Loops
 
+>Loops may be used to iterate through collections, performing an operation against each element in the collection, or to repeat an operation (or series of operations) until a condition is met.
+
+>==The foreach loop is perhaps the most common of these loops.==
+
+```powershell
+foreach ( <element> in <collection> ) { 
+	<statement>
+}
+```
+
+>If the collection is $null or empty, the body of the loop will not execute.
+
+>If `foreach` is placed after a pipe then the alias is used, the `ForEach-Object` (foreach) is used.
+
+
+```powershell
+$array | foreach { }
+```
+
+>`do until` and `do while` each execute the body of the loop at least once, as the condition test is at the end of the loop statement. Loops based on do until will exit when the condition evaluates to `true`; loops based on do while will exit when the condition evaluates to `false`.
+
+
+```powershell
+do { 
+	<body-statements>
+} <until | while> (<condition>)
+```
+
+>The `break` keyword can be used to end a loop early.
+
+>The `continue` keyword may be used to move on to the next iteration of a loop immediately.
+
+>In PowerShell, a loop can be given a **label**. The label may be used with break and continue to define a specific loop to break from or continue to.
+
+```powershell
+:ThisIsALabel foreach ($value in 1..10) { 
+	$value 
+}
+```
+
+```powershell
+:outerLoop for ($i = 1; $i -le 5; $i++) { 
+	:innerLoop foreach ($value in 1..5) { 
+		Write-Host "$i :: $value" 
+		if ($value -eq $i) { 
+			continue outerLoop 
+		} 
+	}
+}
+```
+
+
+
+
+
+
 # Functions
+
+>*Scripts*, *functions*, and *script* blocks share many of the same capabilities.
+>1. Define parameters 
+>2. Support pipeline input 
+>3. Support common parameters, including support for `Confirm` and `WhatIf` 
+>4. Allow other functions to be nested inside.
+
+### 1. Parameters
+
+>Parameters can be defined as a block using the `param` keyword, which is the most popular approach as parameter blocks in PowerShell can become quite large.
+
+
+```powershell
+function New-Function { 
+	param ( 
+		$parameter1, 
+		$parameter2
+	) 
+}
+
+# function-specific syntax
+function New-Function($Parameter1, $Parameter2) { # Function body }
+```
+
+>==When used, the `param` block must appear before all other code.== An exception to this is `using` statements in a script, which must be written before `param`.
+
+
+```powershell
+param ( 
+	[string]$Parameter1  # typed parameter
+	[string]$Parameter2 = 'DefaultValue' # parameter with default value
+
+	# an example of cross-referencing within a default value
+	[string]$String, 
+	[int]$Start, 
+	[int]$Length = ($String.Length - $Start)
+
+)
+```
+
+### 2. Pipeline
+
+
+```powershell
+function Show-Pipeline { 
+	begin {  
+		# before pipeline processing starts.
+		
+		# A pipeline that contains several commands will run each of the begin blocks for each command in turn before taking any further action.
+
+		# can be used to create things that are reused by the process block
+	} 
+
+	process {
+		# runs once for each value received from the pipeline. The built-in variable $_ or $PSItem may be used to access objects in the pipeline within the process block.
+	}
+
+	end {
+		# executes after process has acted on all objects in the input pipeline.
+
+		# $_ will be set to the last value received from a pipeline.
+	}
+}
+```
+
+>==PowerShell does not have a means of strictly enforcing the output from a script or function.==
+
+>Any statement, composed of any number of commands, variables, properties, and method calls, may generate output. This ==output will be automatically sent to the output pipeline by PowerShell as it is generated==. <u>Unanticipated output can cause bugs in code</u>.
+
+>When writing a function or script, it is important to *be aware of the output of the statements used*. If a statement generates output, and that ==output is not needed, it must be explicitly discarded==. PowerShell will not automatically discard output from commands in functions and scripts. There are several techniques available for dropping unwanted output; the following subsections show the common approaches.
+
+>Piping output to `Out-Null` is a robust choice for discarding unwanted output.
+
+```powershell
+AppendLine() | Out-Null
+```
+
+>Redirection to `$null` can be added at the end of a statement to discard output.
+
+```powershell
+AppendLine() > $null
+```
+
+>It is possible to cast to `System.Void` to discard output.
+
+```powershell
+[Void](Get-Command Get-Command)
+```
+
+### 3. Common parameters & co
+
+>The `CmdletBinding` attribute is used to turn a function into an advanced function and is placed immediately above a `param` block.
+>- Add common parameters, such as ErrorAction, Verbose, Debug, ErrorVariable, WarningVariable, and so on 
+>- Enable use of the built-in $PSCmdlet variable 
+>- ==Declare support for `WhatIf` and `Confirm` and define the impact level of the command==
+
+```powershell
+function Test-EmptyParam { 
+	[CmdletBinding()] 
+	param ( ) 
+}
+```
+
+[...]
+
+### x. Docs
+
+```powershell
+function Get-Something { 
+	<# 
+		.SYNOPSIS 
+		Briefly describes the main action performed by Get-Something 
+		
+		.DESCRIPTION 
+		A detailed description of the activities of Get-Something. 
+		
+		.EXAMPLE 
+		$something = Get-Something 
+		$something | Do-Something 
+
+		.NOTES
+		This function is incomplete ...
+		
+		Gets something from somewhere. 
+	#>
+	
+	param ( 
+		# Describes the purpose of Parameter1. 
+		$Parameter1, 
+		# Describes the purpose of Parameter2. 
+		$Parameter2 
+	)
+}
+```
+
+
+
+
+
+
+
