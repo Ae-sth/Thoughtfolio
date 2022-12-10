@@ -37,14 +37,38 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Code/Powershell/Processes and Scheduling.md",
+                "file": "Code/Decorators/Basics of Decorators.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "bc755a763131b3bf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Technique/The Scales of Expression.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b104e5dd2720facc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Code/Selectors/Basics of Selectors.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -110,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Code/Powershell/Processes and Scheduling.md",
+                "file": "Technique/The Scales of Expression.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Code/Powershell/Processes and Scheduling.md",
+                "file": "Technique/The Scales of Expression.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Code/Powershell/Processes and Scheduling.md"
+                "file": "Technique/The Scales of Expression.md"
               }
             }
           }
@@ -204,17 +228,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "588b177a4972f842",
+  "active": "bc755a763131b3bf",
   "lastOpenFiles": [
+    "Technique/Simplicity, Clarity and Elegance.md",
+    "Code/Start from Something that Works, then Build onto Something Sophisticated.md",
+    "Code/Selectors/Basics of Selectors.md",
+    "Code/Typescript/Arrays & Tuples.md",
+    "Code/Decorators/Basics of Decorators.md",
+    "Code/Powershell/Processes and Scheduling.md",
     "Code/Powershell/File Handling.md",
     "Code/Powershell/Classes.md",
     "Code/Powershell/Programmatic Aspects.md",
-    "Code/Powershell/Networking.md",
-    "Code/Powershell/Strings and Regex.md",
-    "Code/Powershell/Processes and Scheduling.md",
-    "Code/Powershell/PS Study Sheet (Deprecated).md",
-    "Academia/Pedagogy/1st Year SM/Second-Test Proposal - TC SM Math.md",
-    "dashboard.md",
-    "Code/Typescript/challenges/Solved.md"
+    "Code/Powershell/Networking.md"
   ]
 }

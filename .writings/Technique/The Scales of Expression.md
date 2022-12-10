@@ -57,7 +57,7 @@ Things in 3 are poetic.
 (10) Avoid Ambiguity by Separating Ideas using Punctuation within a Phrase.
 
 (11) 
-# Paragraph — Point
+# Paragraph — Point(Event)
 
 (1) Ideas are Better Consumed Compact. 
 
